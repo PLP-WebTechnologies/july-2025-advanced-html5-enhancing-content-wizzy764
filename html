@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced HTML5 Content & Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the HTML5 Showcase</h1>
+    <p>This page demonstrates lists, tables, media elements, and a complete accessible HTML5 form with validation.</p>
+  </header>
+
+  <main>
+
+    <!-- Section 1: Lists -->
+    <section>
+      <h2>Popular Web Technologies</h2>
+
+      <h3>Ordered List: Learning Path</h3>
+      <ol>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ol>
+
+      <h3>Unordered List: Tools Required</h3>
+      <ul>
+        <li>Text Editor (e.g., VS Code)</li>
+        <li>Browser (e.g., Chrome)</li>
+        <li>Git & GitHub</li>
+        <li>Terminal/Command Line</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: Table -->
+    <section>
+      <h2>Student Scores Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>HTML5</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>CSS3</td>
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>Charlie</td>
+            <td>JavaScript</td>
+            <td>92</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 3: Media -->
+    <section>
+      <h2>Media Showcase</h2>
+
+      <h3>Embedded Image</h3>
+      <img src="https://via.placeholder.com/300x200" alt="Sample Image" width="300">
+
+      <h3>Audio Sample</h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced HTML5 Content & Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the HTML5 Showcase</h1>
+    <p>This page demonstrates lists, tables, media elements, and a complete accessible HTML5 form with validation.</p>
+  </header>
+
+  <main>
+
+    <!-- Section 1: Lists -->
+    <section>
+      <h2>Popular Web Technologies</h2>
+
+      <h3>Ordered List: Learning Path</h3>
+      <ol>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ol>
+
+      <h3>Unordered List: Tools Required</h3>
+      <ul>
+        <li>Text Editor (e.g., VS Code)</li>
+        <li>Browser (e.g., Chrome)</li>
+        <li>Git & GitHub</li>
+        <li>Terminal/Command Line</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: Table -->
+    <section>
+      <h2>Student Scores Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>HTML5</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>CSS3</td>
+            <td>89</td>
+          </tr>
+          <tr>
+            <td>Charlie</td>
+            <td>JavaScript</td>
+            <td>92</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 3: Media -->
+    <section>
+      <h2>Media Showcase</h2>
+
+      <h3>Image</h3>
+      <img src="https://www.pexels.com/photo/street-lamps-silhouetted-against-vibrant-sunset-32056547/" alt="Sample Image" width="300">
+
+      <h3>Audio </h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video</h3>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Section 4: Form -->
+    <section>
+      <h2>User Registration Form</h2>
+      <form action="/submit" method="post" autocomplete="on">
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required placeholder="e.g., Jane Doe"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="e.g., jane@example.com"><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Enter 10-digit phone number" required placeholder="e.g., 0712345678"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Setup</legend>
+
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" minlength="8" maxlength="20" required><br><br>
+
+          <label for="zip">ZIP Code:</label><br>
+          <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="Enter a 5-digit ZIP code"><br><br>
+
+          <label for="country">Country:</label><br>
+          <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+          </select><br><br>
+
+          <label>Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="bio">Short Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us about yourself..."></textarea><br><br>
+
+          <label for="newsletter">Subscribe to newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter" checked><br><br>
+
+          <label for="readonly-example">Referral Code (readonly):</label><br>
+          <input type="text" id="readonly-example" value="PLP2025" readonly>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit Registration">
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 PLP Web Technologies Assignment</p>
+  </footer>
+
+</body>
+</html>
+
+      </audio>
+
+      <h3>Video Sample</h3>
+      <video width="320" height="240" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Section 4: Form -->
+    <section>
+      <h2> Registration Form</h2>
+      <form action="/submit" method="post" autocomplete="on">
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required placeholder="brian"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="brian@gmail.com"><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Enter 10-digit phone number" required placeholder=" 0712345678"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Setup</legend>
+
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" minlength="8" maxlength="20" required><br><br>
+
+          <label for="zip">ZIP Code:</label><br>
+          <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="Enter a 5-digit ZIP code"><br><br>
+
+          <label for="country">Country:</label><br>
+          <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+          </select><br><br>
+
+          <label>Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="bio">Short Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us about yourself..."></textarea><br><br>
+
+          <label for="newsletter">Subscribe to newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter" checked><br><br>
+
+          <label for="readonly-example">Referral Code (readonly):</label><br>
+          <input type="text" id="readonly-example" value="PLP2025" readonly>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit Registration">
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 PLP Web Technologies Assignment</p>
+  </footer>
+
+</body>
+</html>
